@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    color: #333;
+    -webkit-animation: fade 4s infinite 1200ms;
+    animation: fade 4s infinite 1200ms;
+  
+  }
+  
+  p {
+    margin: 1em;
+    top: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+  }
+  .body-bgcolor {
+    background: #6ac5ac;
+  }
+  div {
+    background-color: white;
+    width: 300px;
+    border: 35px white;
+    padding: 35px;
+    margin: 5px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 15px black;
+    
+}
+div:hover {
+    box-shadow: 3px 3px 15px #666;
+    border-color:black;
+    background:white;
+    cursor: text;
+}
+.container {
+    width: 100px;
+}
+.container:hover{
+    box-shadow: 3px 3px 15px #666;
+    border-color:#C76C0C;
+    background: #C76C0C;
+    color: #fff;
+}
+@-webkit-keyframes fade {
+    50% {
+        opacity: 0.02;
+    }
+}
+
+@keyframes fade {
+    50% {
+        opacity: 0.02;
+    }
+}
